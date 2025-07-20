@@ -1,4 +1,4 @@
-/*
+
 package com.example.shoestore.activity
 
 import android.content.Intent
@@ -155,4 +155,4 @@ class Payment : AppCompatActivity() {
         finish()
     }
 
-}*/
+}

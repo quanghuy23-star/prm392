@@ -78,7 +78,7 @@ dependencies {
 
     // zl pay
     implementation(fileTree(mapOf(
-        "dir" to "C:\\Users\\ADMIN\\Desktop\\ZaloPay\\zpdk-release-v3.1.aar",
+        "dir" to "D:\\FPT\\Term8\\PRM392\\prm392\\ProjectPRM\\app\\src\\main\\java\\com\\example\\shoestore\\Lib\\zpdk-release-v3.1.aar",
         "include" to listOf("*.aar", "*.jar"),
         "exclude" to listOf("")
     )))
