@@ -15,5 +15,8 @@
         android:id="@+id/btnAddToCart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add" />
+        android:backgroundTint="#F44336"
+        android:text="Mua"
+        android:textColorLink="#E47E7E" />
+
 </LinearLayout>

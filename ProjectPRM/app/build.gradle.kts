@@ -51,7 +51,7 @@ dependencies {
     implementation(libs.androidx.annotation)
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
-   // implementation(files("C:\\Users\\ADMIN\\Desktop\\ZaloPay\\zpdk-release-v3.1.aar"))
+//    implementation(files("C:\\Users\\ADMIN\\Desktop\\ZaloPay\\zpdk-release-v3.1.aar"))
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     testImplementation(libs.junit)

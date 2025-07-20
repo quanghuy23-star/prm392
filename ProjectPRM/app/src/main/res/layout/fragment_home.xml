@@ -14,14 +14,16 @@
         android:layout_height="wrap_content"
         android:background="@drawable/search_background"
         android:iconifiedByDefault="false"
-        android:queryHint="Tìm sản phẩm..." />
+        android:queryHint="Tìm sản phẩm..."
+        android:layout_margin="12dp" />
+
 
     <!-- RecyclerView -->
 
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:scrollbars="none"> <!-- ẩn thanh cuộn nếu muốn -->
+        android:scrollbars="none">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -33,37 +35,58 @@
                 android:id="@+id/btnTatCa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="tất cả" />
+                android:text="Tất cả"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#4B5563"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="8dp" />
 
             <Button
                 android:id="@+id/btnMuaXuan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:text="mùa xuân" />
+                android:text="Mercedes-Benz"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#4B5563"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="8dp" />
 
             <Button
                 android:id="@+id/btnMuaHa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:text="mùa hạ" />
+                android:text="BMW"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#4B5563"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="8dp" />
 
             <Button
                 android:id="@+id/btnMuaThu"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:text="mùa thu" />
+                android:text="Porsche"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#4B5563"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="8dp" />
 
             <Button
                 android:id="@+id/btnMuaDong"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:text="mùa đông" />
+                android:text="Audi"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#4B5563"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="8dp" />
 
         </LinearLayout>
+
     </HorizontalScrollView>
 
     <TextView
