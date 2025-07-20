@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "489070720369",
-    "project_id": "fruitstore-b7781",
-    "storage_bucket": "fruitstore-b7781.firebasestorage.app"
+    "project_number": "149904038583",
+    "project_id": "carshop-bc8fc",
+    "storage_bucket": "carshop-bc8fc.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:489070720369:android:15a86f41b17800fecbf2d0",
+        "mobilesdk_app_id": "1:149904038583:android:33eb3bdb75885fcbb58b32",
         "android_client_info": {
           "package_name": "com.example.shoestore"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyD_IrRt9L5Ey7ivfyTUypqftg4x1-0R6y4"
+          "current_key": "AIzaSyDSNkDyPkPxCYloVfYDBvkeG2WPmF63LmM"
         }
       ],
       "services": {
